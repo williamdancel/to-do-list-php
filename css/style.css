@@ -1,0 +1,114 @@
+/* TO DO LIST CSS */
+
+.container {
+    width: 100%;             
+    max-width: 1200px;       
+    margin: 0 auto;         
+    padding: 0 20px;         
+    box-sizing: border-box;  
+}
+h1,p,span,td,th,option,label,.backBtn{
+    font-family: Trebuchet MS;
+}
+.text-center{
+    text-align: center;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+.styled-table th {
+    background-color: #0a6452;
+    color: #ffffff;
+    padding: 12px 15px;
+}
+.styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+.styled-table td:first-child {
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Trebuchet MS;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+.btn-add{
+    background-color: #007bff; 
+    float:right;
+}
+.btn-delete{
+    background-color: #ab1010;  
+}
+.btn-update{
+    background-color: #32bfd1;  
+}
+.btn-sort{
+    background-color: #808f91;
+}
+.sort-form{
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    float:left;
+}
+label {
+    font-size: 16px;
+    color: #555; 
+}
+.textClass,
+.selectClass {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    width: 100%;  
+    box-sizing: border-box;
+}
+
+.textClass:focus,
+.selectClass:focus {
+    border-color: #4CAF50;
+    outline: none; 
+}
+
+.btnAdd {
+    background-color:#007bff; 
+}
+
+.btnUpdate {
+    background-color: #32bfd1; 
+}
+.success-alert-box{
+    background-color: #4CAF50;
+    font-weight: bold;
+    color:white;
+    padding: 5px;
+    text-align:center;
+    border-radius: 5px;
+}
+.error-alert-box{
+    background-color: #ab1010;
+    font-weight: bold;
+    color:white;
+    padding: 5px;
+    text-align:center;
+    border-radius: 5px;
+}
+
+.centered-cell {
+    text-align: center;
+}
